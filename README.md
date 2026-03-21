@@ -37,7 +37,7 @@ The final merged dataset described in the report contains:
 - **39 columns**
 
 For the public portfolio version, raw CSV files are not included.  
-See [`data/README.md`](data/README.md) for the data note.
+See [data/README.md](./data/README.md) for the data note.
 
 ## Main Questions
 
@@ -73,16 +73,16 @@ Some of the main patterns observed in the project were:
 ## Selected Figures
 
 ### Contract vs Customer Status
-![Contract vs Customer Status](outputs/figures/contract-vs-customer-status.jpg)
+![Contract vs Customer Status](./outputs/figures/contract-vs-customer-status.jpg)
 
 ### Tenure in Months vs Customer Status
-![Tenure in Months vs Customer Status](outputs/figures/tenure-in-months-vs-customer-status.jpg)
+![Tenure in Months vs Customer Status](./outputs/figures/tenure-in-months-vs-customer-status.jpg)
 
 ### Clustered Correlation Heatmap
-![Clustered Correlation Heatmap](outputs/figures/clustered-correlation-heatmap.jpg)
+![Clustered Correlation Heatmap](./outputs/figures/clustered-correlation-heatmap.jpg)
 
 ### Churn Rate by Bay Area Cities
-![Churn Rate by Bay Area Cities](outputs/figures/churn-rate-by-bay-area-cities.jpg)
+![Churn Rate by Bay Area Cities](./outputs/figures/churn-rate-by-bay-area-cities.jpg)
 
 ## Notes
 
@@ -92,7 +92,7 @@ The original course submission also included a predictive modeling section with 
 
 ## Related Files
 
-- [Final Report](reports/final-project-report.pdf)
-- [Final Presentation](slides/final-project-presentation.pdf)
-- [M2 Proposal / Dataset Selection](archive/m2-proposal-dataset-selection.pdf)
-- [M4 Initial Analysis Report](archive/m4-initial-analysis-report.pdf)
+- [Final Report](./reports/final-project-report.pdf)
+- [Final Presentation](./slides/final-project-presentation.pdf)
+- [M2 Proposal / Dataset Selection](./archive/m2-proposal-dataset-selection.pdf)
+- [M4 Initial Analysis Report](./archive/m4-initial-analysis-report.pdf)
