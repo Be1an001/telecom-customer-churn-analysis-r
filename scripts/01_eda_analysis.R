@@ -14,8 +14,8 @@ library(pheatmap)
 library(dplyr)
 
 # Load the datasets
-telecom <- read.csv("Telecom Customer Churn Prediction Dataset/telecom_customer_churn.csv")
-zipcode <- read.csv("Telecom Customer Churn Prediction Dataset/telecom_zipcode_population.csv")
+telecom <- read.csv("data/telecom_customer_churn.csv")
+zipcode <- read.csv("data/telecom_zipcode_population.csv")
 
 # Merge the datasets based on Zip Code
 merged_telecom <- merge(telecom, zipcode, by.x = "Zip.Code", by.y = "Zip.Code", all.x = TRUE)

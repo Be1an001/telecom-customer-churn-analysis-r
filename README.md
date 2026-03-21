@@ -96,3 +96,7 @@ The original course submission also included a predictive modeling section with 
 - [Final Presentation](./slides/final-project-presentation.pdf)
 - [M2 Proposal / Dataset Selection](./archive/m2-proposal-dataset-selection.pdf)
 - [M4 Initial Analysis Report](./archive/m4-initial-analysis-report.pdf)
+
+## Extra Documentation
+
+- [EDA Walkthrough](./docs/eda-walkthrough.md)
