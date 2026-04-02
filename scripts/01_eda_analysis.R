@@ -151,6 +151,7 @@ churn_rate_by_city <- merged_telecom %>%
             Churn_Rate = Churned_Customers / Total_Customers * 100) %>%
   arrange(desc(Churn_Rate))
 
+# Small customer counts can make some city-level churn rates unstable
 # Plot churn rate by top 20 city
 ggplot(churn_rate_by_city[1:20, ], aes(x = reorder(City, Churn_Rate), y = Churn_Rate, fill = City)) +
   geom_bar(stat = "identity") +

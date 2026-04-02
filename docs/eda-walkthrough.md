@@ -15,6 +15,11 @@ The work here mainly reflects the part I worked on most directly: data preparati
 - [Final presentation](../slides/final-project-presentation.pdf)
 - [Telecom dataset](../data/telecom_customer_churn.csv)
 - [Zipcode dataset](../data/telecom_zipcode_population.csv)
+- [Data dictionary](../data/telecom_data_dictionary.csv)
+
+---
+
+This walkthrough references selected JPG figures preserved in `outputs/figures/`. The included R script shows the main EDA steps, but it does not currently export every committed figure file.
 
 ---
 
@@ -263,7 +268,7 @@ I also explored whether churn patterns varied by population density, city, and B
 ![Customer Status by Bay Area Cities](../outputs/figures/customer-status-by-bay-area-cities-count.jpg)
 
 ### Main Takeaway
-Some cities showed higher churn rates than others, including several Bay Area cities. These results were useful for segmentation, but they should be interpreted carefully because some cities may have small sample sizes.
+Some cities showed higher churn rates than others, including several Bay Area cities. These results were useful for segmentation, but small customer counts can make some city-level churn rates unstable.
 
 ---
 

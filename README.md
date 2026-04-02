@@ -36,7 +36,7 @@ The final merged dataset described in the report contains:
 - **7,043 rows**
 - **39 columns**
 
-For the public portfolio version, raw CSV files are not included.  
+For this portfolio version, the CSV files used in the EDA are currently included in `data/`.  
 See [data/README.md](./data/README.md) for the data note.
 
 ## Main Questions
@@ -58,17 +58,18 @@ Some of the main patterns observed in the project were:
 - Unmarried customers had higher churn than married customers
 - Bank withdrawal users appeared to churn more than credit card users
 - Competition and dissatisfaction were common churn themes
-- Some Bay Area cities showed higher churn rates, though small sample sizes should be interpreted carefully
+- Some Bay Area cities showed higher churn rates, though small customer counts can make some city-level churn rates unstable
 
 ## Repository Structure
 
-- `scripts/01_eda_analysis.R` — my EDA workflow in R
+- `scripts/01_eda_analysis.R` — main EDA script for the part of the project I worked on most directly
 - `scripts/02_modeling_note.md` — note about the modeling section from the original group project
-- `outputs/figures/` — selected visual outputs
+- `outputs/figures/` — selected visual outputs preserved from the project
 - `reports/final-project-report.pdf` — final written report
 - `slides/final-project-presentation.pdf` — final presentation
 - `archive/` — earlier course deliverables
 - `data/README.md` — dataset note for the public version
+- `data/telecom_data_dictionary.csv` — reference file for variable definitions
 
 ## Selected Figures
 
@@ -86,9 +87,9 @@ Some of the main patterns observed in the project were:
 
 ## Notes
 
-This repository is a portfolio version of the original course project. It keeps the report, presentation, selected figures, and code that I prepared for the project.
+This repository is a portfolio version of the original course project. It keeps the report, presentation, selected figures, and the main EDA materials for the part of the project I worked on most directly.
 
-The original course submission also included a predictive modeling section with logistic regression, lasso, ridge, and ROC/AUC discussion. That section is preserved through the report and slide deck, while the main reproducible script currently included here is the EDA workflow that I prepared.
+The original course submission also included a predictive modeling section with logistic regression, lasso, ridge, and ROC/AUC discussion. That section is preserved through the report and slide deck, while the included EDA script shows the main analysis steps used in this part of the project. The selected JPG figures are preserved project outputs referenced in the documentation.
 
 ## Related Files
 
